@@ -16,7 +16,8 @@ void get_URL(const string &host, const string &path) {
     // Then you'll need to print out everything the server sends back,
     // (not just one call to read() -- everything) until you reach
     // the "eof" (end of file).
-    FullStackSocket socket;
+    // FullStackSocket socket;
+    TCPSocket socket;
     socket.connect(Address(host, "http"));
     string message;
     message += "GET " + path + " HTTP/1.1\r\n";
@@ -26,7 +27,8 @@ void get_URL(const string &host, const string &path) {
     while (!socket.eof()) {
         cout << socket.read();
     }
-    socket.wait_until_closed();
+    // socket.wait_until_closed();
+    socket.close();
     cerr << "Function called: get_URL(" << host << ", " << path << ").\n";
     cerr << "Warning: get_URL() has not been implemented yet.\n";
 }
