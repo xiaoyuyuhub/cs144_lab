@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xuyu/桌面/TCP-Lab/apps/bidirectional_stream_copy.cc" "/home/xuyu/桌面/TCP-Lab/cmake-build-debug/apps/CMakeFiles/stream_copy.dir/bidirectional_stream_copy.cc.o"
+  "/home/xuyu/桌面/cs144_lab/apps/bidirectional_stream_copy.cc" "/home/xuyu/桌面/cs144_lab/cmake-build-debug/apps/CMakeFiles/stream_copy.dir/bidirectional_stream_copy.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

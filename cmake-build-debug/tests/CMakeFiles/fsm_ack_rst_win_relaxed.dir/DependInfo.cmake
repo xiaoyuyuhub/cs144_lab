@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xuyu/桌面/TCP-Lab/tests/fsm_ack_rst_win_relaxed.cc" "/home/xuyu/桌面/TCP-Lab/cmake-build-debug/tests/CMakeFiles/fsm_ack_rst_win_relaxed.dir/fsm_ack_rst_win_relaxed.cc.o"
+  "/home/xuyu/桌面/cs144_lab/tests/fsm_ack_rst_win_relaxed.cc" "/home/xuyu/桌面/cs144_lab/cmake-build-debug/tests/CMakeFiles/fsm_ack_rst_win_relaxed.dir/fsm_ack_rst_win_relaxed.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +17,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/xuyu/桌面/TCP-Lab/cmake-build-debug/tests/CMakeFiles/spongechecks.dir/DependInfo.cmake"
-  "/home/xuyu/桌面/TCP-Lab/cmake-build-debug/libsponge/CMakeFiles/sponge.dir/DependInfo.cmake"
+  "/home/xuyu/桌面/cs144_lab/cmake-build-debug/tests/CMakeFiles/spongechecks.dir/DependInfo.cmake"
+  "/home/xuyu/桌面/cs144_lab/cmake-build-debug/libsponge/CMakeFiles/sponge.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -68,7 +68,7 @@ include CMakeFiles/check_lab3.dir/progress.make
 
 CMakeFiles/check_lab3:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xuyu/桌面/cs144_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Testing the TCP sender..."
-	/usr/bin/ctest --output-on-failure --timeout 10 -R 't_send_|t_recv_|t_wrapping_|t_strm_reassem_|t_webget|t_byte_stream|_dt'
+	/usr/bin/ctest --output-on-failure --timeout 10 -R 't_send_|t_recv_|t_wrapping_|t_strm_reassem_|t_byte_stream|_dt'
 
 check_lab3: CMakeFiles/check_lab3
 check_lab3: CMakeFiles/check_lab3.dir/build.make

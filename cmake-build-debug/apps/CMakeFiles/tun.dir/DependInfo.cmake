@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xuyu/桌面/TCP-Lab/apps/tun.cc" "/home/xuyu/桌面/TCP-Lab/cmake-build-debug/apps/CMakeFiles/tun.dir/tun.cc.o"
+  "/home/xuyu/桌面/cs144_lab/apps/tun.cc" "/home/xuyu/桌面/cs144_lab/cmake-build-debug/apps/CMakeFiles/tun.dir/tun.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/xuyu/桌面/TCP-Lab/cmake-build-debug/libsponge/CMakeFiles/sponge.dir/DependInfo.cmake"
+  "/home/xuyu/桌面/cs144_lab/cmake-build-debug/libsponge/CMakeFiles/sponge.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

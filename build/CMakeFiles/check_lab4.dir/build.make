@@ -67,7 +67,7 @@ include CMakeFiles/check_lab4.dir/compiler_depend.make
 include CMakeFiles/check_lab4.dir/progress.make
 
 CMakeFiles/check_lab4:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xuyu/桌面/cs144_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Testing libsponge..."
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xuyu/桌面/cs144_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Testing the TCP connection..."
 	../tun.sh check 144 145
 	/usr/bin/ctest --output-on-failure --timeout 10 -R ^t_
 

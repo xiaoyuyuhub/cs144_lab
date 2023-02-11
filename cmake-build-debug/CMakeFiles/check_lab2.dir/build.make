@@ -74,7 +74,7 @@ include CMakeFiles/check_lab2.dir/progress.make
 
 CMakeFiles/check_lab2:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xuyu/桌面/cs144_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Testing the TCP receiver..."
-	/home/xuyu/桌面/clion-2021.1.3/bin/cmake/linux/bin/ctest --output-on-failure --timeout 10 -R 't_recv_|t_wrapping_|t_strm_reassem_|t_webget|t_byte_stream|_dt'
+	/home/xuyu/桌面/clion-2021.1.3/bin/cmake/linux/bin/ctest --output-on-failure --timeout 10 -R 't_recv_|t_wrapping_|t_strm_reassem_|t_byte_stream|_dt'
 
 check_lab2: CMakeFiles/check_lab2
 check_lab2: CMakeFiles/check_lab2.dir/build.make

@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /home/xuyu/桌面/cs144_lab/cmake-build-debug
 include CMakeFiles/check_lab4.dir/progress.make
 
 CMakeFiles/check_lab4:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xuyu/桌面/cs144_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Testing libsponge..."
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xuyu/桌面/cs144_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Testing the TCP connection..."
 	../tun.sh check 144 145
 	/home/xuyu/桌面/clion-2021.1.3/bin/cmake/linux/bin/ctest --output-on-failure --timeout 10 -R ^t_
 
