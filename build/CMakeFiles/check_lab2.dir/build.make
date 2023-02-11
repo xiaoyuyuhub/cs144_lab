@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xuyu/桌面/TCP-Lab
+CMAKE_SOURCE_DIR = /home/xuyu/桌面/cs144_lab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xuyu/桌面/TCP-Lab/build
+CMAKE_BINARY_DIR = /home/xuyu/桌面/cs144_lab/build
 
 # Utility rule file for check_lab2.
 
@@ -67,7 +67,7 @@ include CMakeFiles/check_lab2.dir/compiler_depend.make
 include CMakeFiles/check_lab2.dir/progress.make
 
 CMakeFiles/check_lab2:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xuyu/桌面/TCP-Lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Testing the TCP receiver..."
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/xuyu/桌面/cs144_lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Testing the TCP receiver..."
 	/usr/bin/ctest --output-on-failure --timeout 10 -R 't_recv_|t_wrapping_|t_strm_reassem_|t_webget|t_byte_stream|_dt'
 
 check_lab2: CMakeFiles/check_lab2
@@ -83,6 +83,6 @@ CMakeFiles/check_lab2.dir/clean:
 .PHONY : CMakeFiles/check_lab2.dir/clean
 
 CMakeFiles/check_lab2.dir/depend:
-	cd /home/xuyu/桌面/TCP-Lab/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xuyu/桌面/TCP-Lab /home/xuyu/桌面/TCP-Lab /home/xuyu/桌面/TCP-Lab/build /home/xuyu/桌面/TCP-Lab/build /home/xuyu/桌面/TCP-Lab/build/CMakeFiles/check_lab2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xuyu/桌面/cs144_lab/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xuyu/桌面/cs144_lab /home/xuyu/桌面/cs144_lab /home/xuyu/桌面/cs144_lab/build /home/xuyu/桌面/cs144_lab/build /home/xuyu/桌面/cs144_lab/build/CMakeFiles/check_lab2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/check_lab2.dir/depend
 

@@ -1,8 +1,8 @@
 libsponge/CMakeFiles/sponge.dir/util/parser.cc.o: \
- /home/xuyu/桌面/TCP-Lab/libsponge/util/parser.cc \
+ /home/xuyu/桌面/cs144_lab/libsponge/util/parser.cc \
  /usr/include/stdc-predef.h \
- /home/xuyu/桌面/TCP-Lab/libsponge/util/parser.hh \
- /home/xuyu/桌面/TCP-Lab/libsponge/util/buffer.hh \
+ /home/xuyu/桌面/cs144_lab/libsponge/util/parser.hh \
+ /home/xuyu/桌面/cs144_lab/libsponge/util/buffer.hh \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

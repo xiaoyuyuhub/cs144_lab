@@ -1,8 +1,8 @@
 doctests/CMakeFiles/parser_dt.dir/parser_dt.cc.o: \
- /home/xuyu/桌面/TCP-Lab/doctests/parser_dt.cc \
+ /home/xuyu/桌面/cs144_lab/doctests/parser_dt.cc \
  /usr/include/stdc-predef.h \
- /home/xuyu/桌面/TCP-Lab/libsponge/util/parser.hh \
- /home/xuyu/桌面/TCP-Lab/libsponge/util/buffer.hh \
+ /home/xuyu/桌面/cs144_lab/libsponge/util/parser.hh \
+ /home/xuyu/桌面/cs144_lab/libsponge/util/buffer.hh \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -179,4 +179,4 @@ doctests/CMakeFiles/parser_dt.dir/parser_dt.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio-ext.h \
  /usr/include/c++/11/stdexcept \
- /home/xuyu/桌面/TCP-Lab/doctests/parser_example.cc
+ /home/xuyu/桌面/cs144_lab/doctests/parser_example.cc

@@ -1,8 +1,8 @@
 libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o: \
- /home/xuyu/桌面/TCP-Lab/libsponge/util/file_descriptor.cc \
+ /home/xuyu/桌面/cs144_lab/libsponge/util/file_descriptor.cc \
  /usr/include/stdc-predef.h \
- /home/xuyu/桌面/TCP-Lab/libsponge/util/file_descriptor.hh \
- /home/xuyu/桌面/TCP-Lab/libsponge/util/buffer.hh \
+ /home/xuyu/桌面/cs144_lab/libsponge/util/file_descriptor.hh \
+ /home/xuyu/桌面/cs144_lab/libsponge/util/buffer.hh \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -179,7 +179,7 @@ libsponge/CMakeFiles/sponge.dir/util/file_descriptor.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio-ext.h /usr/include/c++/11/cstddef \
  /usr/include/c++/11/limits \
- /home/xuyu/桌面/TCP-Lab/libsponge/util/util.hh \
+ /home/xuyu/桌面/cs144_lab/libsponge/util/util.hh \
  /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
  /usr/include/c++/11/bits/streambuf_iterator.h \
  /usr/include/c++/11/streambuf /usr/include/c++/11/bits/ios_base.h \

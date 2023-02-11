@@ -1,4 +1,4 @@
-# Install script for directory: /home/xuyu/桌面/TCP-Lab/doctests
+# Install script for directory: /home/xuyu/桌面/cs144_lab/doctests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

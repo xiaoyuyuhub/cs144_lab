@@ -1,7 +1,7 @@
 doctests/CMakeFiles/address_dt.dir/address_dt.cc.o: \
- /home/xuyu/桌面/TCP-Lab/doctests/address_dt.cc \
+ /home/xuyu/桌面/cs144_lab/doctests/address_dt.cc \
  /usr/include/stdc-predef.h \
- /home/xuyu/桌面/TCP-Lab/libsponge/util/address.hh \
+ /home/xuyu/桌面/cs144_lab/libsponge/util/address.hh \
  /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -177,6 +177,6 @@ doctests/CMakeFiles/address_dt.dir/address_dt.cc.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/xuyu/桌面/TCP-Lab/doctests/address_example_1.cc \
- /home/xuyu/桌面/TCP-Lab/doctests/address_example_2.cc \
- /home/xuyu/桌面/TCP-Lab/doctests/address_example_3.cc
+ /home/xuyu/桌面/cs144_lab/doctests/address_example_1.cc \
+ /home/xuyu/桌面/cs144_lab/doctests/address_example_2.cc \
+ /home/xuyu/桌面/cs144_lab/doctests/address_example_3.cc

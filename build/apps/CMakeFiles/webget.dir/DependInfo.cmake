@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/xuyu/桌面/TCP-Lab/apps/webget.cc" "apps/CMakeFiles/webget.dir/webget.cc.o" "gcc" "apps/CMakeFiles/webget.dir/webget.cc.o.d"
+  "/home/xuyu/桌面/cs144_lab/apps/webget.cc" "apps/CMakeFiles/webget.dir/webget.cc.o" "gcc" "apps/CMakeFiles/webget.dir/webget.cc.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/xuyu/桌面/TCP-Lab/build/libsponge/CMakeFiles/sponge.dir/DependInfo.cmake"
+  "/home/xuyu/桌面/cs144_lab/build/libsponge/CMakeFiles/sponge.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

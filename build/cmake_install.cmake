@@ -1,4 +1,4 @@
-# Install script for directory: /home/xuyu/桌面/TCP-Lab
+# Install script for directory: /home/xuyu/桌面/cs144_lab
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,10 +44,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/xuyu/桌面/TCP-Lab/build/libsponge/cmake_install.cmake")
-  include("/home/xuyu/桌面/TCP-Lab/build/apps/cmake_install.cmake")
-  include("/home/xuyu/桌面/TCP-Lab/build/tests/cmake_install.cmake")
-  include("/home/xuyu/桌面/TCP-Lab/build/doctests/cmake_install.cmake")
+  include("/home/xuyu/桌面/cs144_lab/build/libsponge/cmake_install.cmake")
+  include("/home/xuyu/桌面/cs144_lab/build/apps/cmake_install.cmake")
+  include("/home/xuyu/桌面/cs144_lab/build/tests/cmake_install.cmake")
+  include("/home/xuyu/桌面/cs144_lab/build/doctests/cmake_install.cmake")
 
 endif()
 
@@ -59,5 +59,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/xuyu/桌面/TCP-Lab/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/xuyu/桌面/cs144_lab/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

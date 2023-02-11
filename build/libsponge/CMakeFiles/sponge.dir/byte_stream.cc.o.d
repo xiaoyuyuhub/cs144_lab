@@ -1,7 +1,7 @@
 libsponge/CMakeFiles/sponge.dir/byte_stream.cc.o: \
- /home/xuyu/桌面/TCP-Lab/libsponge/byte_stream.cc \
+ /home/xuyu/桌面/cs144_lab/libsponge/byte_stream.cc \
  /usr/include/stdc-predef.h \
- /home/xuyu/桌面/TCP-Lab/libsponge/byte_stream.hh \
+ /home/xuyu/桌面/cs144_lab/libsponge/byte_stream.hh \
  /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

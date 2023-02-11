@@ -1,9 +1,9 @@
 libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o: \
- /home/xuyu/桌面/TCP-Lab/libsponge/util/eventloop.cc \
+ /home/xuyu/桌面/cs144_lab/libsponge/util/eventloop.cc \
  /usr/include/stdc-predef.h \
- /home/xuyu/桌面/TCP-Lab/libsponge/util/eventloop.hh \
- /home/xuyu/桌面/TCP-Lab/libsponge/util/file_descriptor.hh \
- /home/xuyu/桌面/TCP-Lab/libsponge/util/buffer.hh \
+ /home/xuyu/桌面/cs144_lab/libsponge/util/eventloop.hh \
+ /home/xuyu/桌面/cs144_lab/libsponge/util/file_descriptor.hh \
+ /home/xuyu/桌面/cs144_lab/libsponge/util/buffer.hh \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -184,7 +184,7 @@ libsponge/CMakeFiles/sponge.dir/util/eventloop.cc.o: \
  /usr/include/poll.h /usr/include/x86_64-linux-gnu/sys/poll.h \
  /usr/include/x86_64-linux-gnu/bits/poll.h \
  /usr/include/x86_64-linux-gnu/bits/poll2.h \
- /home/xuyu/桌面/TCP-Lab/libsponge/util/util.hh \
+ /home/xuyu/桌面/cs144_lab/libsponge/util/util.hh \
  /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
  /usr/include/c++/11/bits/streambuf_iterator.h \
  /usr/include/c++/11/streambuf /usr/include/c++/11/bits/ios_base.h \

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/xuyu/桌面/TCP-Lab/libsponge/util -I/home/xuyu/桌面/TCP-Lab/libsponge/tcp_helpers -I/home/xuyu/桌面/TCP-Lab/libsponge
+CXX_INCLUDES = -I/home/xuyu/桌面/cs144_lab/libsponge/util -I/home/xuyu/桌面/cs144_lab/libsponge/tcp_helpers -I/home/xuyu/桌面/cs144_lab/libsponge
 
 CXX_FLAGS =  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG
 

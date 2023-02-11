@@ -1,7 +1,7 @@
 libsponge/CMakeFiles/sponge.dir/util/address.cc.o: \
- /home/xuyu/桌面/TCP-Lab/libsponge/util/address.cc \
+ /home/xuyu/桌面/cs144_lab/libsponge/util/address.cc \
  /usr/include/stdc-predef.h \
- /home/xuyu/桌面/TCP-Lab/libsponge/util/address.hh \
+ /home/xuyu/桌面/cs144_lab/libsponge/util/address.hh \
  /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -156,7 +156,7 @@ libsponge/CMakeFiles/sponge.dir/util/address.cc.o: \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
- /home/xuyu/桌面/TCP-Lab/libsponge/util/util.hh \
+ /home/xuyu/桌面/cs144_lab/libsponge/util/util.hh \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
