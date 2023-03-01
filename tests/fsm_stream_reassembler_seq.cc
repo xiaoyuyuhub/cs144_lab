@@ -34,6 +34,7 @@ int main() {
             test.execute(BytesAssembled(8));
 
             test.execute(BytesAvailable("abcdefgh"));
+//            test.execute(BytesAvailable("efghabcd"));
             test.execute(NotAtEof{});
         }
 

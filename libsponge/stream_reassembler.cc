@@ -7,19 +7,14 @@
 
 // You will need to add private members to the class declaration in `stream_reassembler.hh`
 
-template <typename... Targs>
+template<typename... Targs>
 void DUMMY_CODE(Targs &&... /* unused */) {}
 
 using namespace std;
 
 StreamReassembler::StreamReassembler(const size_t capacity)
-    : unass_base(0)
-    , unass_size(0)
-    , _eof(0)
-    , buffer(capacity, '\0')
-    , bitmap(capacity, false)
-    , _output(capacity)
-    , _capacity(capacity) {}
+        : unass_base(0), unass_size(0), _eof(0), buffer(capacity, '\0'), bitmap(capacity, false), _output(capacity),
+          _capacity(capacity) {}
 
 //! \details This functions calls just after pushing a substring into the
 //! _output stream. It aims to check if there exists any contiguous substrings
@@ -59,6 +54,7 @@ void StreamReassembler::push_substring(const string &data, const size_t index, c
 
     if (index >= unass_base) {
         int offset = index - unass_base;
+        //判断len与buffer中还剩多少长度去最小，如果超出容量则丢弃
         size_t real_len = min(len, _capacity - _output.buffer_size() - offset);
         if (real_len < len) {
             _eof = false;
@@ -67,6 +63,7 @@ void StreamReassembler::push_substring(const string &data, const size_t index, c
             if (bitmap[i + offset])
                 continue;
             buffer[i + offset] = data[i];
+            //bitmap is biaozhiwei,标志位，用来标识是否成功写入
             bitmap[i + offset] = true;
             unass_size++;
         }
