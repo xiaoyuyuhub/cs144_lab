@@ -59,14 +59,21 @@ void StreamReassembler::push_substring(const string &data, const size_t index, c
         if (real_len < len) {
             _eof = false;
         }
+        //able to write reassembler buffer
         for (size_t i = 0; i < real_len; i++) {
             if (bitmap[i + offset])
                 continue;
+            //write to reassembler buffer first
             buffer[i + offset] = data[i];
             //bitmap is biaozhiwei,标志位，用来标识是否成功写入
             bitmap[i + offset] = true;
             unass_size++;
         }
+        /**
+         *  data:       xxxxxxxxxxxxxxxxxxxxxx
+         *  xxxxxxxxxxxxxxxxxxx
+         *  this type situation,ignore data overlap
+         */
     } else if (index + len > unass_base) {
         int offset = unass_base - index;
         size_t real_len = min(len - offset, _capacity - _output.buffer_size());
