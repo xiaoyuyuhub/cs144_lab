@@ -30,15 +30,26 @@ uint64_t unwrap(WrappingInt32 n, WrappingInt32 isn, uint64_t checkpoint) {
     uint64_t tmp = 0;
     uint64_t tmp1 = 0;
     if (n - isn < 0) {
+        //通下，如果n-isn小于0，就代表要转换以下了，就像isn=6,n=4,4-6=-2。
+        //如果10是intmax，这个绝对距离就是10+(4-6)=8了，无非就是8，18，28。。。
+        //后面有图可以说明
         tmp = uint64_t(n - isn + (1l << 32));
     } else {
+        //如果n-isn大于0，就代表当前这个传入的n大于初始化isn，这个就比较简单
+        //就像isn=6,n=8,8-6=2,这个2直接就是觉得的序列号了，后边只需要判断与
+        //checkpoint的距离就行了，如果10是intmax，那么这个2无非就是2，12，22。。。
         tmp = uint64_t(n - isn);
     }
+    //如果大于了直接返回，这里要注意，上面只做了一次+(1l << 32)处理，所以理论上来说只会是
+    //第一个范围的数据
     if (tmp >= checkpoint)
         return tmp;
     tmp |= ((checkpoint >> 32) << 32);
     while (tmp <= checkpoint)
+        //这里就是循环加intMax了，知道tem比checkpoint大，也就是在checkpoint之上
         tmp += (1ll << 32);
+    //这里减一下，也就是可能在checkpoint以上，或者以下，然后在下面进行判断
     tmp1 = tmp - (1ll << 32);
+    //在checkpoint上下判断，判断哪个最近取哪个
     return (checkpoint - tmp1 < tmp - checkpoint) ? tmp1 : tmp;
 }

@@ -52,7 +52,13 @@ void StreamReassembler::push_substring(const string &data, const size_t index, c
     // ignore invalid index
     if (index >= unass_base + _capacity) return;
 
+
     if (index >= unass_base) {
+        /**
+         *  data:                       xxxxxxxxxxxxxxxxxxxxxx
+         *  xxxxxxxxxxxxxxxxxxx
+         *  this type situation,ignore data overlap
+         */
         int offset = index - unass_base;
         //判断len与buffer中还剩多少长度去最小，如果超出容量则丢弃
         size_t real_len = min(len, _capacity - _output.buffer_size() - offset);
