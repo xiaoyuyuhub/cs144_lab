@@ -24,4 +24,6 @@ add_subdirectory ("${PROJECT_SOURCE_DIR}/tests")
 
 add_subdirectory ("${PROJECT_SOURCE_DIR}/doctests")
 
+add_compile_options(-g O0)
+
 include (etc/tests.cmake)
