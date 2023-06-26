@@ -52,6 +52,8 @@ void TCPSender::fill_window() {
                                        static_cast<size_t>(_receiver_free_space),
                                        static_cast<size_t>(TCPConfig::MAX_PAYLOAD_SIZE)});
             seg.payload() = Buffer{_stream.read(payload_size)};
+
+
             if (_stream.eof() && static_cast<size_t>(_receiver_free_space) > payload_size) {
                 seg.header().fin = true;
                 _fin_sent = true;

@@ -1,17 +1,17 @@
-Start testing: Jun 19 16:30 CST
+Start testing: Jun 20 12:20 CST
 ----------------------------------------------------------
 1/164 Testing: t_wrapping_ints_cmp
 1/164 Test: t_wrapping_ints_cmp
 Command: "/home/xuyu/桌面/cs144_lab/build/tests/wrapping_integers_cmp"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_wrapping_ints_cmp" start time: Jun 19 16:30 CST
+"t_wrapping_ints_cmp" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_wrapping_ints_cmp" end time: Jun 19 16:30 CST
+"t_wrapping_ints_cmp" end time: Jun 20 12:20 CST
 "t_wrapping_ints_cmp" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -19,14 +19,14 @@ Test Passed.
 2/164 Test: t_wrapping_ints_unwrap
 Command: "/home/xuyu/桌面/cs144_lab/build/tests/wrapping_integers_unwrap"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_wrapping_ints_unwrap" start time: Jun 19 16:30 CST
+"t_wrapping_ints_unwrap" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_wrapping_ints_unwrap" end time: Jun 19 16:30 CST
+"t_wrapping_ints_unwrap" end time: Jun 20 12:20 CST
 "t_wrapping_ints_unwrap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -34,14 +34,14 @@ Test Passed.
 3/164 Test: t_wrapping_ints_wrap
 Command: "/home/xuyu/桌面/cs144_lab/build/tests/wrapping_integers_wrap"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_wrapping_ints_wrap" start time: Jun 19 16:30 CST
+"t_wrapping_ints_wrap" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_wrapping_ints_wrap" end time: Jun 19 16:30 CST
+"t_wrapping_ints_wrap" end time: Jun 20 12:20 CST
 "t_wrapping_ints_wrap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -49,14 +49,14 @@ Test Passed.
 4/164 Test: t_wrapping_ints_roundtrip
 Command: "/home/xuyu/桌面/cs144_lab/build/tests/wrapping_integers_roundtrip"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_wrapping_ints_roundtrip" start time: Jun 19 16:30 CST
+"t_wrapping_ints_roundtrip" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.10 sec
 ----------------------------------------------------------
 Test Passed.
-"t_wrapping_ints_roundtrip" end time: Jun 19 16:30 CST
+"t_wrapping_ints_roundtrip" end time: Jun 20 12:20 CST
 "t_wrapping_ints_roundtrip" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -64,14 +64,14 @@ Test Passed.
 5/164 Test: t_recv_connect
 Command: "/home/xuyu/桌面/cs144_lab/build/tests/recv_connect"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_recv_connect" start time: Jun 19 16:30 CST
+"t_recv_connect" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_connect" end time: Jun 19 16:30 CST
+"t_recv_connect" end time: Jun 20 12:20 CST
 "t_recv_connect" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -79,14 +79,14 @@ Test Passed.
 6/164 Test: t_recv_transmit
 Command: "/home/xuyu/桌面/cs144_lab/build/tests/recv_transmit"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_recv_transmit" start time: Jun 19 16:30 CST
+"t_recv_transmit" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.03 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_transmit" end time: Jun 19 16:30 CST
+"t_recv_transmit" end time: Jun 20 12:20 CST
 "t_recv_transmit" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -94,14 +94,14 @@ Test Passed.
 7/164 Test: t_recv_window
 Command: "/home/xuyu/桌面/cs144_lab/build/tests/recv_window"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_recv_window" start time: Jun 19 16:30 CST
+"t_recv_window" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_window" end time: Jun 19 16:30 CST
+"t_recv_window" end time: Jun 20 12:20 CST
 "t_recv_window" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -109,14 +109,14 @@ Test Passed.
 8/164 Test: t_recv_reorder
 Command: "/home/xuyu/桌面/cs144_lab/build/tests/recv_reorder"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_recv_reorder" start time: Jun 19 16:30 CST
+"t_recv_reorder" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_reorder" end time: Jun 19 16:30 CST
+"t_recv_reorder" end time: Jun 20 12:20 CST
 "t_recv_reorder" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -124,14 +124,14 @@ Test Passed.
 9/164 Test: t_recv_close
 Command: "/home/xuyu/桌面/cs144_lab/build/tests/recv_close"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_recv_close" start time: Jun 19 16:30 CST
+"t_recv_close" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_close" end time: Jun 19 16:30 CST
+"t_recv_close" end time: Jun 20 12:20 CST
 "t_recv_close" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -139,29 +139,134 @@ Test Passed.
 10/164 Test: t_recv_special
 Command: "/home/xuyu/桌面/cs144_lab/build/tests/recv_special"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_recv_special" start time: Jun 19 16:30 CST
+"t_recv_special" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_special" end time: Jun 19 16:30 CST
+"t_recv_special" end time: Jun 20 12:20 CST
 "t_recv_special" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/164 Testing: t_send_connect
+11/164 Test: t_send_connect
+Command: "/home/xuyu/桌面/cs144_lab/build/tests/send_connect"
+Directory: /home/xuyu/桌面/cs144_lab/build
+"t_send_connect" start time: Jun 20 12:20 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_send_connect" end time: Jun 20 12:20 CST
+"t_send_connect" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/164 Testing: t_send_transmit
+12/164 Test: t_send_transmit
+Command: "/home/xuyu/桌面/cs144_lab/build/tests/send_transmit"
+Directory: /home/xuyu/桌面/cs144_lab/build
+"t_send_transmit" start time: Jun 20 12:20 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"t_send_transmit" end time: Jun 20 12:20 CST
+"t_send_transmit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/164 Testing: t_send_retx
+13/164 Test: t_send_retx
+Command: "/home/xuyu/桌面/cs144_lab/build/tests/send_retx"
+Directory: /home/xuyu/桌面/cs144_lab/build
+"t_send_retx" start time: Jun 20 12:20 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_send_retx" end time: Jun 20 12:20 CST
+"t_send_retx" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/164 Testing: t_send_window
+14/164 Test: t_send_window
+Command: "/home/xuyu/桌面/cs144_lab/build/tests/send_window"
+Directory: /home/xuyu/桌面/cs144_lab/build
+"t_send_window" start time: Jun 20 12:20 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"t_send_window" end time: Jun 20 12:20 CST
+"t_send_window" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/164 Testing: t_send_ack
+15/164 Test: t_send_ack
+Command: "/home/xuyu/桌面/cs144_lab/build/tests/send_ack"
+Directory: /home/xuyu/桌面/cs144_lab/build
+"t_send_ack" start time: Jun 20 12:20 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_send_ack" end time: Jun 20 12:20 CST
+"t_send_ack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/164 Testing: t_send_close
+16/164 Test: t_send_close
+Command: "/home/xuyu/桌面/cs144_lab/build/tests/send_close"
+Directory: /home/xuyu/桌面/cs144_lab/build
+"t_send_close" start time: Jun 20 12:20 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_send_close" end time: Jun 20 12:20 CST
+"t_send_close" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/164 Testing: t_send_extra
+17/164 Test: t_send_extra
+Command: "/home/xuyu/桌面/cs144_lab/build/tests/send_extra"
+Directory: /home/xuyu/桌面/cs144_lab/build
+"t_send_extra" start time: Jun 20 12:20 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"t_send_extra" end time: Jun 20 12:20 CST
+"t_send_extra" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 18/164 Testing: t_strm_reassem_single
 18/164 Test: t_strm_reassem_single
 Command: "/home/xuyu/桌面/cs144_lab/build/tests/fsm_stream_reassembler_single"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_strm_reassem_single" start time: Jun 19 16:30 CST
+"t_strm_reassem_single" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_single" end time: Jun 19 16:30 CST
+"t_strm_reassem_single" end time: Jun 20 12:20 CST
 "t_strm_reassem_single" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -169,14 +274,14 @@ Test Passed.
 19/164 Test: t_strm_reassem_seq
 Command: "/home/xuyu/桌面/cs144_lab/build/tests/fsm_stream_reassembler_seq"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_strm_reassem_seq" start time: Jun 19 16:30 CST
+"t_strm_reassem_seq" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_seq" end time: Jun 19 16:30 CST
+"t_strm_reassem_seq" end time: Jun 20 12:20 CST
 "t_strm_reassem_seq" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -184,14 +289,14 @@ Test Passed.
 20/164 Test: t_strm_reassem_dup
 Command: "/home/xuyu/桌面/cs144_lab/build/tests/fsm_stream_reassembler_dup"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_strm_reassem_dup" start time: Jun 19 16:30 CST
+"t_strm_reassem_dup" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_dup" end time: Jun 19 16:30 CST
+"t_strm_reassem_dup" end time: Jun 20 12:20 CST
 "t_strm_reassem_dup" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -199,14 +304,14 @@ Test Passed.
 21/164 Test: t_strm_reassem_holes
 Command: "/home/xuyu/桌面/cs144_lab/build/tests/fsm_stream_reassembler_holes"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_strm_reassem_holes" start time: Jun 19 16:30 CST
+"t_strm_reassem_holes" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_holes" end time: Jun 19 16:30 CST
+"t_strm_reassem_holes" end time: Jun 20 12:20 CST
 "t_strm_reassem_holes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -214,14 +319,14 @@ Test Passed.
 22/164 Test: t_strm_reassem_many
 Command: "/home/xuyu/桌面/cs144_lab/build/tests/fsm_stream_reassembler_many"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_strm_reassem_many" start time: Jun 19 16:30 CST
+"t_strm_reassem_many" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.08 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_many" end time: Jun 19 16:30 CST
+"t_strm_reassem_many" end time: Jun 20 12:20 CST
 "t_strm_reassem_many" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -229,14 +334,14 @@ Test Passed.
 23/164 Test: t_strm_reassem_overlapping
 Command: "/home/xuyu/桌面/cs144_lab/build/tests/fsm_stream_reassembler_overlapping"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_strm_reassem_overlapping" start time: Jun 19 16:30 CST
+"t_strm_reassem_overlapping" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_overlapping" end time: Jun 19 16:30 CST
+"t_strm_reassem_overlapping" end time: Jun 20 12:20 CST
 "t_strm_reassem_overlapping" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -244,14 +349,14 @@ Test Passed.
 24/164 Test: t_strm_reassem_win
 Command: "/home/xuyu/桌面/cs144_lab/build/tests/fsm_stream_reassembler_win"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_strm_reassem_win" start time: Jun 19 16:30 CST
+"t_strm_reassem_win" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.08 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_win" end time: Jun 19 16:30 CST
+"t_strm_reassem_win" end time: Jun 20 12:20 CST
 "t_strm_reassem_win" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -259,14 +364,14 @@ Test Passed.
 25/164 Test: t_strm_reassem_cap
 Command: "/home/xuyu/桌面/cs144_lab/build/tests/fsm_stream_reassembler_cap"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_strm_reassem_cap" start time: Jun 19 16:30 CST
+"t_strm_reassem_cap" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_cap" end time: Jun 19 16:30 CST
+"t_strm_reassem_cap" end time: Jun 20 12:20 CST
 "t_strm_reassem_cap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -274,14 +379,14 @@ Test Passed.
 26/164 Test: t_byte_stream_construction
 Command: "/home/xuyu/桌面/cs144_lab/build/tests/byte_stream_construction"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_byte_stream_construction" start time: Jun 19 16:30 CST
+"t_byte_stream_construction" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_construction" end time: Jun 19 16:30 CST
+"t_byte_stream_construction" end time: Jun 20 12:20 CST
 "t_byte_stream_construction" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -289,14 +394,14 @@ Test Passed.
 27/164 Test: t_byte_stream_one_write
 Command: "/home/xuyu/桌面/cs144_lab/build/tests/byte_stream_one_write"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_byte_stream_one_write" start time: Jun 19 16:30 CST
+"t_byte_stream_one_write" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_one_write" end time: Jun 19 16:30 CST
+"t_byte_stream_one_write" end time: Jun 20 12:20 CST
 "t_byte_stream_one_write" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -304,14 +409,14 @@ Test Passed.
 28/164 Test: t_byte_stream_two_writes
 Command: "/home/xuyu/桌面/cs144_lab/build/tests/byte_stream_two_writes"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_byte_stream_two_writes" start time: Jun 19 16:30 CST
+"t_byte_stream_two_writes" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_two_writes" end time: Jun 19 16:30 CST
+"t_byte_stream_two_writes" end time: Jun 20 12:20 CST
 "t_byte_stream_two_writes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -319,14 +424,14 @@ Test Passed.
 29/164 Test: t_byte_stream_capacity
 Command: "/home/xuyu/桌面/cs144_lab/build/tests/byte_stream_capacity"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_byte_stream_capacity" start time: Jun 19 16:30 CST
+"t_byte_stream_capacity" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.24 sec
+Test time =   0.29 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_capacity" end time: Jun 19 16:30 CST
+"t_byte_stream_capacity" end time: Jun 20 12:20 CST
 "t_byte_stream_capacity" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -334,14 +439,14 @@ Test Passed.
 30/164 Test: t_byte_stream_many_writes
 Command: "/home/xuyu/桌面/cs144_lab/build/tests/byte_stream_many_writes"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_byte_stream_many_writes" start time: Jun 19 16:30 CST
+"t_byte_stream_many_writes" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_many_writes" end time: Jun 19 16:30 CST
+"t_byte_stream_many_writes" end time: Jun 20 12:20 CST
 "t_byte_stream_many_writes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -349,14 +454,14 @@ Test Passed.
 48/164 Test: t_address_dt
 Command: "/home/xuyu/桌面/cs144_lab/build/doctests/address_dt"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_address_dt" start time: Jun 19 16:30 CST
+"t_address_dt" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_address_dt" end time: Jun 19 16:30 CST
+"t_address_dt" end time: Jun 20 12:20 CST
 "t_address_dt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -364,14 +469,14 @@ Test Passed.
 49/164 Test: t_parser_dt
 Command: "/home/xuyu/桌面/cs144_lab/build/doctests/parser_dt"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_parser_dt" start time: Jun 19 16:30 CST
+"t_parser_dt" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_parser_dt" end time: Jun 19 16:30 CST
+"t_parser_dt" end time: Jun 20 12:20 CST
 "t_parser_dt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -379,15 +484,15 @@ Test Passed.
 50/164 Test: t_socket_dt
 Command: "/home/xuyu/桌面/cs144_lab/build/doctests/socket_dt"
 Directory: /home/xuyu/桌面/cs144_lab/build
-"t_socket_dt" start time: Jun 19 16:30 CST
+"t_socket_dt" start time: Jun 20 12:20 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_socket_dt" end time: Jun 19 16:30 CST
+"t_socket_dt" end time: Jun 20 12:20 CST
 "t_socket_dt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jun 19 16:30 CST
+End testing: Jun 20 12:20 CST
